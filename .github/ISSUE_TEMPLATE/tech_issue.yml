@@ -25,4 +25,4 @@ body:
   - type: textarea
     id: supplement
     attributes:
-      label: 補足
+      label: 補足/キャプチャ
