@@ -13,13 +13,11 @@ body:
     attributes:
       label: メリット
       description: 改善することでどのようなメリットがあるのかを記載してください。
-    validations:
   - type: textarea
     id: do
     attributes:
       label: やること
       description: このissueで取り組むことを記載してください。
-    validations:
   - type: textarea
     id: supplement
     attributes:
