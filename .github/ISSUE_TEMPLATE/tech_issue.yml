@@ -22,3 +22,23 @@ body:
     id: supplement
     attributes:
       label: 補足/キャプチャ
+  - type: dropdown
+    id: importance
+    attributes:
+      label: 重要度
+      description: この課題の重要度を選択したください。（主観でOK）
+      options:
+        - 高
+        - 中
+        - 低
+      default: 1
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: 緊急度
+      description: この課題の緊急度を選択したください。（主観でOK）
+      options:
+        - 高
+        - 中
+        - 低
+      default: 1
