@@ -26,7 +26,7 @@ body:
     id: effectRange
     attributes:
       label: 影響範囲
-      description: このissueの影響範囲を選択したください。（主観でOK）
+      description: このissueの影響範囲を選択してください。（主観でOK）
       options:
         - 広い
         - 中
@@ -35,7 +35,7 @@ body:
     id: urgency
     attributes:
       label: 緊急度
-      description: このissueの緊急度を選択したください。（主観でOK）
+      description: このissueの緊急度を選択してください。（主観でOK）
       options:
         - 高
         - 中
