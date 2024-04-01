@@ -23,14 +23,14 @@ body:
     attributes:
       label: 補足/キャプチャ
   - type: dropdown
-    id: importance
+    id: effectRange
     attributes:
-      label: 重要度
-      description: このissueの重要度を選択したください。（主観でOK）
+      label: 影響範囲
+      description: このissueの影響範囲を選択したください。（主観でOK）
       options:
-        - 高
+        - 広い
         - 中
-        - 低
+        - 狭い
   - type: dropdown
     id: urgency
     attributes:
